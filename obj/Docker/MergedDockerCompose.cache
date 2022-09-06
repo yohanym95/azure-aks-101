@@ -1,0 +1,15 @@
+services:
+  aks-demo-101:
+    build:
+      context: C:\Users\YohanMalshika\source\repos\aks-demo-101
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: aksdemo101
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\YohanMalshika\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+version: '3.4'

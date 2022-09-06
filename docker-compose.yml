@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  aks-demo-101:
+    image: ${DOCKER_REGISTRY-}aksdemo101
+    build:
+      context: .
+      dockerfile: Dockerfile

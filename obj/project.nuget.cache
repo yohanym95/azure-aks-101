@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6xJmq3Wbv9cwVqCZaEDwWEnf9TbBxJ1cp65IbolecWwyigvKBNb3I+1N0cjKQ4q3JF6ZGZQi/qalwU8mJjTmiw==",
+  "dgSpecHash": "Bh5bxLrriUFPXktWxSHLMSMROqJuXEqVgec5m5ItmB4bh7eF4vnBpnl25KGowIIXYxUCUG4U2OnirnFGBk1wzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\YohanMalshika\\source\\repos\\aks-demo-101\\aks-demo-101.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\YohanMalshika\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
   "logs": []
 }
